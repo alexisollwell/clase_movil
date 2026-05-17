@@ -9,6 +9,7 @@ class RowScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Row Widget'),
+        centerTitle: true,
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),
@@ -25,7 +26,7 @@ class RowScreen extends StatelessWidget {
               ),
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 RowItem(color: Colors.red[300], icon: Icons.home),
                 RowItem(color: Colors.teal[300], icon: Icons.star),

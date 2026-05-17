@@ -17,8 +17,8 @@ class ColumnScreen extends StatelessWidget {
         color: Colors.grey[100],
         width: double.infinity,
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.end,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             const Text(
               'Ejemplo de Column',

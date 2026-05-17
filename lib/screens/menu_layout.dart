@@ -1,6 +1,7 @@
 import 'package:clase_movil/components/menu_item.dart';
 import 'package:clase_movil/screens/column_screen.dart';
 import 'package:clase_movil/screens/container_properties_screen.dart';
+import 'package:clase_movil/screens/mix_column_row_screen.dart';
 import 'package:clase_movil/screens/row_screen.dart';
 import 'package:clase_movil/screens/stack_screen.dart';
 import 'package:flutter/material.dart';
@@ -31,6 +32,13 @@ class MainMenuScreen extends StatelessWidget {
             icon: Icons.view_headline,
             color: Colors.indigo,
             screen: const RowScreen(),
+          ),
+          MenuItem(
+            title: 'Mix Column y Row',
+            subtitle: 'Organización Horizontal y Vertical',
+            icon: Icons.voice_chat,
+            color: Colors.orange,
+            screen: const MixColumnRowScreen(),
           ),
           MenuItem(
             title: 'Stack Widget',
