@@ -1,9 +1,9 @@
 import 'package:clase_movil/components/menu_item.dart';
-import 'package:clase_movil/screens/column_screen.dart';
-import 'package:clase_movil/screens/container_properties_screen.dart';
-import 'package:clase_movil/screens/mix_column_row_screen.dart';
-import 'package:clase_movil/screens/row_screen.dart';
-import 'package:clase_movil/screens/stack_screen.dart';
+import 'package:clase_movil/screens/layout/column_screen.dart';
+import 'package:clase_movil/screens/layout/container_properties_screen.dart';
+import 'package:clase_movil/screens/layout/mix_column_row_screen.dart';
+import 'package:clase_movil/screens/layout/row_screen.dart';
+import 'package:clase_movil/screens/layout/stack_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainMenuScreen extends StatelessWidget {
