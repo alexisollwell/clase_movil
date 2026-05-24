@@ -1,4 +1,5 @@
 import 'package:clase_movil/components/menu_card.dart';
+import 'package:clase_movil/practice/menu_practice.dart';
 import 'package:flutter/material.dart';
 import 'package:clase_movil/screens/layout/menu_layout.dart';
 import 'package:clase_movil/screens/styles/menu_estilos.dart';
@@ -54,6 +55,15 @@ class HomeMenuScreen extends StatelessWidget {
                 color1: Colors.pinkAccent,
                 color2: Colors.purple,
                 targetScreen: const MenuEstilosScreen(), // New styles menu
+              ),
+              const SizedBox(height: 20),
+              MenuCard(
+                title: 'Practicas en clase',
+                subtitle: 'Ejercicios y ejemplos',
+                icon: Icons.work_outline_rounded,
+                color1: Colors.yellow,
+                color2: Colors.orange,
+                targetScreen: const MenuPracticeScreen(), // New styles menu
               ),
               const Spacer(flex: 2),
             ],

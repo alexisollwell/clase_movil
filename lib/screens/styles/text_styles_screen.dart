@@ -19,7 +19,10 @@ class TextStylesScreen extends StatelessWidget {
           const SectionTitle(title: 'Fuentes Nativas (TextStyle)'),
           const Text(
             'Texto con tamaño 24 y negrita',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            style: TextStyle(
+              fontSize: 35, 
+              fontWeight: FontWeight.w400
+            ),
           ),
           const SizedBox(height: 10),
           const Text(
@@ -33,7 +36,7 @@ class TextStylesScreen extends StatelessWidget {
           const SizedBox(height: 10),
           const Text(
             'Texto con espaciado entre letras (letterSpacing)',
-            style: TextStyle(fontSize: 18, letterSpacing: 3.0),
+            style: TextStyle(fontSize: 18, letterSpacing: 5.0),
           ),
           const SizedBox(height: 10),
           const Text(
@@ -66,7 +69,10 @@ class TextStylesScreen extends StatelessWidget {
           const SectionTitle(title: 'Google Fonts'),
           Text(
             'Fuente: Pacifico',
-            style: GoogleFonts.pacifico(fontSize: 28, color: Colors.teal),
+            style: GoogleFonts.paletteMosaic(
+              fontSize: 28, 
+              color: Colors.teal
+            ),
           ),
           const SizedBox(height: 10),
           Text(

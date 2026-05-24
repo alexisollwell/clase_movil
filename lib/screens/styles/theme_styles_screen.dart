@@ -107,6 +107,12 @@ class _ThemeStylesScreenState extends State<ThemeStylesScreen> {
                           onTap: () => changeTheme(Colors.orange),
                           selectedColor: _primaryColor,
                         ),
+                        ColorButton(
+                          color: Colors.blueGrey,
+                          isDarkMode: _isDarkMode,
+                          onTap: () => changeTheme(Colors.blueGrey),
+                          selectedColor: _primaryColor,
+                        ),
                       ],
                     ),
                   ],
