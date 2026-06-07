@@ -1,0 +1,13 @@
+Crea un archivo de contexto que contenga toda informacion del proyecto actual asi como su arquitectura y relaciones entre archivos, tambien crea una carpeta de nombre docs, donde se guardaran las implementaciones aprobadas y las lista de pendientes y documentacion del historial de planes aprobados e implementados
+
+El archivo de contexto debe contar con reglas para crear un plan de implementacion antes de codificar, esperar confirmacion explicita del usuario para codificar, mostrar en los planes cual es el porcentaje de exito que representa el plan y sugerir cual de los modelos de ia haria un resultado eficiente en cuanto a consumo de tokens respecto al plan propuesto
+
+los modelos de ia son 
+- gemini 3.5 flash (medium)
+- gemini 3.5 flash (high)
+- gemini 3.5 flash (low)
+- gemini 3.1 pro (low)
+- gemini 3.1 pro (high)
+- claude sonnet 4.6 (thinking)
+- claude opus 4.6 (thinking)
+- gpt-oss 120B
