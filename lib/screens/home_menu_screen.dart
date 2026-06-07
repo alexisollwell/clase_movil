@@ -3,6 +3,7 @@ import 'package:clase_movil/practice/menu_practice.dart';
 import 'package:flutter/material.dart';
 import 'package:clase_movil/screens/layout/menu_layout.dart';
 import 'package:clase_movil/screens/styles/menu_estilos.dart';
+import 'package:clase_movil/screens/static/menu_static.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomeMenuScreen extends StatelessWidget {
@@ -64,6 +65,15 @@ class HomeMenuScreen extends StatelessWidget {
                 color1: Colors.yellow,
                 color2: Colors.orange,
                 targetScreen: const MenuPracticeScreen(), // New styles menu
+              ),
+              const SizedBox(height: 20),
+              MenuCard(
+                title: 'Elementos Estáticos',
+                subtitle: 'Imágenes, animaciones y audio',
+                icon: Icons.perm_media_rounded,
+                color1: Colors.teal,
+                color2: Colors.green,
+                targetScreen: const MenuStaticScreen(),
               ),
               const Spacer(flex: 2),
             ],
